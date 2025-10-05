@@ -48,7 +48,7 @@ Métricas:
 - **RMSE (Root Mean Squared Error)**: Mede o erro de predição (quanto mais próximo de 10, pior, e quanto mais próximo de 1, melhor) .
 
 ## Resultados
-- **Melhor Modelo**: XGBoost
+- **Melhor Modelo**: XGBoost com R² = 0,9774 e baixo RMSE = 2,765
 - **Visualizações**:
   - Gráfico de Barras R²: XGBoost lidera, seguido por Random Forest.
   - Gráfico de Barras RMSE: XGBoost com menor erro.
