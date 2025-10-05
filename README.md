@@ -26,7 +26,9 @@ Neste contexto, este trabalho propõe uma análise de dados de solos brasileiros
    - Determina profundidade média.
    - Categoriza e codifica o valor de cor da amostra úmida.
 4. **Análise Exploratória**: Matriz de correlação para detectar multicolinearidade.
-   
+
+   <img src="img1.jpeg" alt="Página 1 - Resumo">
+
 6. **Treinamento de Modelos**: Divisão treino-teste, escalonamento e otimização de hiperparâmetros (ex.: GridSearchCV para KNN e DecisionTree).
 7. **Avaliação**: Validação cruzada (quando aplicável), R² e RMSE.
 8. **Visualizações**: Heatmap de correlação, gráficos de barras para R² e RMSE.
@@ -50,8 +52,13 @@ Métricas:
 ## Resultados
 - **Melhor Modelo**: XGBoost com R² = 0,9774 e baixo RMSE = 2,765
 - **Visualizações**:
-  - Gráfico de Barras R²: XGBoost lidera, seguido por Random Forest.
+  - Gráfico de Barras R²:
+ 
+    <img src="img2.jpeg" alt="Página 1 - Resumo">
+    
   - Gráfico de Barras RMSE: XGBoost com menor erro.
+
+	<img src="img3.jpeg" alt="Página 1 - Resumo">
 
 # Referências
 
