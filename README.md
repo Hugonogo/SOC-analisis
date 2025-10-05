@@ -26,9 +26,10 @@ Neste contexto, este trabalho propõe uma análise de dados de solos brasileiros
    - Determina profundidade média.
    - Categoriza e codifica o valor de cor da amostra úmida.
 4. **Análise Exploratória**: Matriz de correlação para detectar multicolinearidade.
-5. **Treinamento de Modelos**: Divisão treino-teste, escalonamento e otimização de hiperparâmetros (ex.: GridSearchCV para KNN e DecisionTree).
-6. **Avaliação**: Validação cruzada (quando aplicável), R² e RMSE.
-7. **Visualizações**: Heatmap de correlação, gráficos de barras para R² e RMSE.
+   
+6. **Treinamento de Modelos**: Divisão treino-teste, escalonamento e otimização de hiperparâmetros (ex.: GridSearchCV para KNN e DecisionTree).
+7. **Avaliação**: Validação cruzada (quando aplicável), R² e RMSE.
+8. **Visualizações**: Heatmap de correlação, gráficos de barras para R² e RMSE.
 
 O código é implementado em Python com bibliotecas como Pandas, Scikit-learn, XGBoost e Matplotlib/Seaborn.
 
@@ -47,9 +48,8 @@ Métricas:
 - **RMSE (Root Mean Squared Error)**: Mede o erro de predição (quanto mais próximo de 10, pior, e quanto mais próximo de 1, melhor) .
 
 ## Resultados
-- **Melhor Modelo**: XGBoost (valores exatos de R² e RMSE disponíveis na execução do código).
+- **Melhor Modelo**: XGBoost
 - **Visualizações**:
-  - Heatmap de Correlação: Identifica features multicolineares.
   - Gráfico de Barras R²: XGBoost lidera, seguido por Random Forest.
   - Gráfico de Barras RMSE: XGBoost com menor erro.
 
